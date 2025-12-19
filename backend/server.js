@@ -9,7 +9,7 @@ app.use(express.json());
 // Connect to MongoDB
 mongoose
   .connect(
-    "mongodb+srv://rtofly3_db_user:gOYW0ZDhMW5E2OAr@cluster0.sbdu86b.mongodb.net/bigdata"
+    "mongodb+srv://rtofly3_db_user:<password>@cluster0.sbdu86b.mongodb.net/bigdata"
   )
   .then(() => console.log("✅ MongoDB Connected"))
   .catch(err => console.error(err));
